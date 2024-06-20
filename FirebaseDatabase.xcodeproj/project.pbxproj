@@ -126,6 +126,51 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		BD6180592C24B21B00BCCEF6 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BD9C6DE22C23B1C300AFF921 /* AppDelegate.swift */,
+				BD9C6DE42C23B1C300AFF921 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		BD61805A2C24B22500BCCEF6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BD901E4D2C24886D0071F72C /* StorageManager.swift */,
+				BD901E4F2C2488780071F72C /* FirestoreManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		BD61805B2C24B23200BCCEF6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD9C6DE62C23B1C300AFF921 /* ViewController.swift */,
+				BD6180552C2498BB00BCCEF6 /* ProductListViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BD61805C2C24B24100BCCEF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD61805D2C24B25A00BCCEF6 /* Cell */,
+				BD9C6DE82C23B1C300AFF921 /* Main.storyboard */,
+				BD9C6DED2C23B1C400AFF921 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD61805D2C24B25A00BCCEF6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BD6180572C24991E00BCCEF6 /* ProductListTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		BD9C6DD62C23B1C300AFF921 = {
 			isa = PBXGroup;
 			children = (
@@ -151,16 +196,11 @@
 		BD9C6DE12C23B1C300AFF921 /* FirebaseDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				BD9C6DE22C23B1C300AFF921 /* AppDelegate.swift */,
-				BD9C6DE42C23B1C300AFF921 /* SceneDelegate.swift */,
-				BD9C6DE62C23B1C300AFF921 /* ViewController.swift */,
-				BD6180552C2498BB00BCCEF6 /* ProductListViewController.swift */,
-				BD901E4D2C24886D0071F72C /* StorageManager.swift */,
-				BD901E4F2C2488780071F72C /* FirestoreManager.swift */,
-				BD9C6DE82C23B1C300AFF921 /* Main.storyboard */,
-				BD6180572C24991E00BCCEF6 /* ProductListTableViewCell.swift */,
+				BD6180592C24B21B00BCCEF6 /* Delegate */,
+				BD61805A2C24B22500BCCEF6 /* Manager */,
+				BD61805C2C24B24100BCCEF6 /* View */,
+				BD61805B2C24B23200BCCEF6 /* Controller */,
 				BD9C6DEB2C23B1C400AFF921 /* Assets.xcassets */,
-				BD9C6DED2C23B1C400AFF921 /* LaunchScreen.storyboard */,
 				BD6180532C24914400BCCEF6 /* TTGSnackbar.swift */,
 				BD9C6DF02C23B1C400AFF921 /* Info.plist */,
 				BD9C6E122C23B55300AFF921 /* GoogleService-Info.plist */,
